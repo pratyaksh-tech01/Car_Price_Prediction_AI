@@ -1,0 +1,79 @@
+/* responsive.css */
+
+/* Tablet */
+@media (max-width: 768px) {
+    .glowing-text {
+        font-size: 2.5rem;
+    }
+
+    .navbar .container {
+        padding: 0 1rem;
+    }
+
+    .nav-links {
+        gap: 1rem;
+    }
+
+    .prediction-section {
+        padding: 1rem;
+    }
+
+    .glass-card {
+        padding: 1.5rem;
+    }
+
+    .charts-container {
+        grid-template-columns: 1fr;
+    }
+
+    .insights-section h3 {
+        font-size: 2rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .glowing-text {
+        font-size: 1.8rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .cta-btn {
+        padding: 0.8rem 1.5rem;
+        font-size: 1rem;
+    }
+
+    .price-display {
+        font-size: 2rem;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .logo {
+        font-size: 1.3rem;
+    }
+
+    .form-group input,
+    .form-group select {
+        font-size: 16px;
+    }
+
+    .glass-card {
+        padding: 1rem;
+    }
+
+    .submit-btn {
+        padding: 0.8rem;
+        font-size: 1rem;
+    }
+
+    .insights-section {
+        padding: 1rem;
+    }
+}

@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+*.egg-info/
+*.egg
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model files
+*.pkl
+*.pth
+
+# Database
+*.db
+*.sqlite
+
+# Logs
+*.log
+
+# Node (if using npm)
+node_modules/
+package-lock.json
+
+# Build
+build/
+dist/
