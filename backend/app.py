@@ -107,3 +107,4 @@ if __name__ == '__main__':
     print(f"   - GET http://localhost:{port}/api/insights")
     print(f"   - GET http://localhost:{port}/api/health")
     app.run(debug=True, port=port, host='0.0.0.0')
+    
